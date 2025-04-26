@@ -106,5 +106,77 @@
                 "precio": 109
             }
         ]
+    },
+    {
+        "numero": 1001,
+        "fecha": "2025-04-26 01:01:13",
+        "productos": [
+            {
+                "codigo": "C1",
+                "precio": 24
+            },
+            {
+                "codigo": "H23",
+                "precio": 234
+            },
+            {
+                "codigo": "M30",
+                "precio": 109
+            }
+        ]
+    },
+    {
+        "numero": 1001,
+        "fecha": "2025-04-26 01:01:13",
+        "productos": [
+            {
+                "codigo": "C1",
+                "precio": 24
+            },
+            {
+                "codigo": "K123",
+                "precio": 247
+            },
+            {
+                "codigo": "M30",
+                "precio": 109
+            }
+        ]
+    },
+    {
+        "numero": 1001,
+        "fecha": "2025-04-26 01:19:26",
+        "productos": [
+            {
+                "codigo": "C1",
+                "precio": 24
+            },
+            {
+                "codigo": "H23",
+                "precio": 234
+            },
+            {
+                "codigo": "M30",
+                "precio": 109
+            }
+        ]
+    },
+    {
+        "numero": 1001,
+        "fecha": "2025-04-26 01:19:26",
+        "productos": [
+            {
+                "codigo": "C1",
+                "precio": 24
+            },
+            {
+                "codigo": "K123",
+                "precio": 247
+            },
+            {
+                "codigo": "M30",
+                "precio": 109
+            }
+        ]
     }
 ]

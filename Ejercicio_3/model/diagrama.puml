@@ -1,0 +1,25 @@
+@startuml
+
+class Producto {
+    - codigo: str
+    - precio: float
+    + __init__(codigo: str, precio: float)
+    + actualizar_codigo(codigo: str): void
+    + actualizar_precio(precio: float): void
+    + __str__(): str
+}
+
+class Factura {
+    - numero: int
+    - productos: list
+    + __init__(numero: int)
+    + agregar_producto(producto: Producto): void
+    + cambiar_producto(index: int, producto: Producto): void
+    + obtener_numero(): int
+    + obtener_productos(): list
+    + imprimir(): void
+}
+
+Factura "1" *-- "*" Producto : contiene
+
+@enduml
