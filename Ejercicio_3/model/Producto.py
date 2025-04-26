@@ -14,6 +14,9 @@ class Producto:
         if nuevo_precio < 0:
             raise ValueError("El precio no puede ser negativo")
         self.precio = nuevo_precio
+    
+    def actualizar_codigo(self, nuevo_codigo: str):
+        self.codigo= nuevo_codigo
 
     def __str__(self):
         return f'Código: {self.codigo}, Precio: ${self.precio:.2f}'
